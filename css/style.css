@@ -12,12 +12,8 @@ html,body{
     width:100%;
 
 }
-.header-container{
-width: 1025px;
-}
-.header__button{
-    height: 35px;
-    border-radius: 0%;
+.nav-link--color{
+    color: white;
 }
 .form-control--size{
     width: 433px;
@@ -25,8 +21,12 @@ width: 1025px;
     border-radius: 0;
     font-size: 14px;
 }
-.nav-link--color{
-    color: white;
+.header-container{
+width: 1025px;
+}
+.header__button{
+    height: 35px;
+    border-radius: 0%;
 }
 .header__button--size{
     padding: 5px 40px;
@@ -93,6 +93,7 @@ width: 1025px;
       height:65px;
       letter-spacing: 0;
       line-height: 1.4;
+      margin-left: 0px;
   }
   .category__heading{
     font-size: 22px;
@@ -155,6 +156,12 @@ width: 1025px;
        margin-bottom: 15px;
    }
    /* section4 */
+   .category--height{
+       height: 80px;
+   }
+   .card__text--top{
+       margin-top: -8px;
+   }
 @media only screen and (max-width: 1000px) {
      html,body{
         width: max-content;
